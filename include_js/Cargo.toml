@@ -3,6 +3,8 @@ name = "include_js"
 author = "Liss Heidrich"
 version = "0.1.0"
 edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "checked inclusion of javascript scripts into rust files"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
