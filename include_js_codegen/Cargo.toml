@@ -5,6 +5,7 @@ version = "0.1.0"
 edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "provides the macros for the crate include_js"
+repository = "https://github.com/Clueliss/include_js"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
