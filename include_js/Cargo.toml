@@ -14,6 +14,6 @@ default = ["template"]
 template = ["include_js_codegen/template", "handlebars"]
 
 [dependencies]
-include_js_core = { version = "0.1", path = "../include_js_core" }
+include_js_core = { version = "0.1.1", path = "../include_js_core" }
 include_js_codegen = { version = "0.1", path = "../include_js_codegen" }
 handlebars = { version = "3.5.5", optional = true }
