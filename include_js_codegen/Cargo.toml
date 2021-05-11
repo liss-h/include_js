@@ -1,0 +1,23 @@
+[package]
+name = "include_js_codegen"
+author = "Liss Heidrich"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[features]
+default = ["template"]
+template = ["handlebars"]
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+Boa = "0.11.0"
+handlebars = { version = "3.5.5", optional = true }
+
+[dev-dependencies]
+include_js_core = { path = "../include_js_core" }
