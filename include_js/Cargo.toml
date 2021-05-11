@@ -1,0 +1,16 @@
+[package]
+name = "include_js"
+author = "Liss Heidrich"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["template"]
+template = ["include_js_codegen/template", "handlebars"]
+
+[dependencies]
+include_js_core = { path = "../include_js_core" }
+include_js_codegen = { path = "../include_js_codegen" }
+handlebars = { version = "3.5.5", optional = true }
